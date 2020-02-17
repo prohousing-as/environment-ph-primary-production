@@ -21,10 +21,10 @@ expose:
 jenkins:
   Servers:
     Global: {}
-prow: {}
 jx-canary:
-  hpa:
-    enabled: true
   canary:
     enabled: true
     host: jx-canary.prohousing.no
+  hpa:
+    enabled: true
+prow: {}
