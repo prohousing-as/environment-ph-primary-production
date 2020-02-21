@@ -27,4 +27,11 @@ jx-canary:
     host: jx-canary.prohousing.no
   hpa:
     enabled: true
+jx-canary2:
+  hpa:
+    enabled: true
+  virtualservice:
+    enabled: true
+    host: jx-canary.prohousing.no
+    path: /test
 prow: {}
