@@ -32,6 +32,4 @@ jx-canary2:
     enabled: true
   vivirtualservice:
     enabled: enabled
-    host: jx-canary.prohousing.no
-    path: /test
 prow: {}
