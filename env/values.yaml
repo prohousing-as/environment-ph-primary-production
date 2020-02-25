@@ -31,5 +31,5 @@ jx-canary2:
   hpa:
     enabled: true
   vivirtualservice:
-    enabled: enabled
+    enabled: true
 prow: {}
