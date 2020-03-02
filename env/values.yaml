@@ -26,7 +26,6 @@ jx-canary:
     enabled: true
   virtualservice: 
     enabled: true
-    host: jx-canary.prohousing.no
 jx-canary2:
   hpa:
     enabled: true
