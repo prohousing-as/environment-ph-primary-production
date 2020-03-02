@@ -24,7 +24,7 @@ jenkins:
 jx-canary:
   hpa:
     enabled: true
-  virtualservice: 
+  virtualservice:
     enabled: true
     host: jx-canary.prohousing.no
 jx-canary2:
