@@ -22,11 +22,11 @@ jenkins:
   Servers:
     Global: {}
 jx-canary:
-  canary:
-    enabled: true
-    host: jx-canary.prohousing.no
   hpa:
     enabled: true
+  virtualservice: 
+    enabled: true
+    host: jx-canary.prohousing.no
 jx-canary2:
   hpa:
     enabled: true
