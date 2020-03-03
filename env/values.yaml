@@ -26,5 +26,4 @@ ph-istio-deployment:
     enabled: true
   istio:
     enabled: true
-  
 prow: {}
