@@ -24,11 +24,4 @@ jenkins:
 jx-canary:
   hpa:
     enabled: true
-  virtualservice:
-    enabled: true
-jx-canary2:
-  hpa:
-    enabled: true
-  virtualservice:
-    enabled: true
 prow: {}
