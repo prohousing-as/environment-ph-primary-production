@@ -21,7 +21,9 @@ expose:
 jenkins:
   Servers:
     Global: {}
-jx-canary:
+ph-istio-deployment:
   hpa:
+    enabled: true
+  istio:
     enabled: true
 prow: {}
