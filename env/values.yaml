@@ -31,6 +31,6 @@ jx-istio-test:
     enabled: true
   istio:
     enabled: true
-    gateway: placeholder-gateway
-    path: /placeholder
+    gateway: jx-ph-istio-deployment
+    path: /test
 prow: {}
