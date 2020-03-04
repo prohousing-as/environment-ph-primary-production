@@ -26,9 +26,4 @@ ph-istio-deployment:
     enabled: true
   istio:
     enabled: true
-jx-istio-test: 
-  istio:
-    enabled: true
-    gateway: placeholder-gateway
-    path: /placeholder    
 prow: {}
