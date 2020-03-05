@@ -33,4 +33,18 @@ ph-istio-deployment:
     enabled: true
   istio:
     enabled: true
+ph-group-management-service:
+  hpa:
+    enabled: true
+  istio:
+    enabled: true
+    gateway: jx-ph-istio-deployment
+    path: "/grp"
+istio-test:
+  hpa:
+    enabled: true
+  istio:
+    enabled: true
+    gateway: jx-ph-istio-deployment
+    path: "/test"
 prow: {}
