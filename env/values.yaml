@@ -28,23 +28,16 @@ istio-test:
 jenkins:
   Servers:
     Global: {}
-ph-istio-deployment:
-  hpa:
-    enabled: true
-  istio:
-    enabled: true
 ph-group-management-service:
   hpa:
     enabled: true
   istio:
     enabled: true
     gateway: jx-ph-istio-deployment
-    path: "/grp"
-istio-test:
+    path: /grp
+ph-istio-deployment:
   hpa:
     enabled: true
   istio:
     enabled: true
-    gateway: jx-ph-istio-deployment
-    path: "/test"
 prow: {}
