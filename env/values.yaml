@@ -35,6 +35,13 @@ ph-group-management-service:
     enabled: true
     gateway: jx-ph-istio-deployment
     path: /grp
+ph-user-service-serverless:
+  hpa:
+    enabled: true
+  istio:
+    enabled: true
+    gateway: jx-ph-istio-deployment
+    path: /usr
 ph-istio-deployment:
   hpa:
     enabled: true
