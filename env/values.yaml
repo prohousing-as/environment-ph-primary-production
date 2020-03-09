@@ -28,6 +28,13 @@ istio-test:
 jenkins:
   Servers:
     Global: {}
+ph-auth-service-serverless:
+  hpa:
+    enabled: true
+  istio:
+    enabled: true
+    gateway: jx-ph-istio-deployment
+    path: /auth
 ph-group-management-service:
   hpa:
     enabled: true
@@ -47,11 +54,4 @@ ph-user-service-serverless:
     enabled: true
     gateway: jx-ph-istio-deployment
     path: /usr
-ph-auth-service-serverless:
-  hpa:
-    enabled: true
-  istio:
-    enabled: true
-    gateway: jx-ph-istio-deployment
-    path: /auth
 prow: {}
