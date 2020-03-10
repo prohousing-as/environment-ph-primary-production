@@ -47,13 +47,6 @@ ph-istio-deployment:
     enabled: true
   istio:
     enabled: true
-ph-user-service-serverless:
-  hpa:
-    enabled: true
-  istio:
-    enabled: true
-    gateway: jx-ph-istio-deployment
-    path: /usr
 ph-payments-service-serverless:
   hpa:
     enabled: true
@@ -61,4 +54,11 @@ ph-payments-service-serverless:
     enabled: true
     gateway: jx-ph-istio-deployment
     path: /pay
+ph-user-service-serverless:
+  hpa:
+    enabled: true
+  istio:
+    enabled: true
+    gateway: jx-ph-istio-deployment
+    path: /usr
 prow: {}
