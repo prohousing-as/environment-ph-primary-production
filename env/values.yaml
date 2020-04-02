@@ -42,6 +42,13 @@ ph-group-management-service:
     enabled: true
     gateway: jx-ph-istio-deployment
     path: /grp
+ph-invoice-service:
+  hpa:
+    enabled: true
+  istio:
+    enabled: true
+    gateway: jx-ph-istio-deployment
+    path: /inv
 ph-istio-deployment:
   hpa:
     enabled: true
@@ -61,11 +68,4 @@ ph-user-service-serverless:
     enabled: true
     gateway: jx-ph-istio-deployment
     path: /usr
-ph-invoice-service:
-  hpa:
-    enabled: true
-  istio:
-    enabled: true
-    gateway: jx-ph-istio-deployment
-    path: /inv
 prow: {}
