@@ -49,7 +49,7 @@ ph-invoice-service:
     enabled: true
     gateway: jx-ph-istio-deployment
     path: /inv
-ph-istio-deployment:
+ph-pre-prod-istio:
   hpa:
     enabled: true
   istio:
