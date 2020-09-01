@@ -18,13 +18,6 @@ expose:
     http: "true"
     tlsacme: "false"
     urltemplate: '{{.Service}}-{{.Namespace}}.{{.Domain}}'
-istio-test:
-  hpa:
-    enabled: true
-  istio:
-    enabled: true
-    gateway: jx-ph-istio-deployment
-    path: /test
 jenkins:
   Servers:
     Global: {}
