@@ -18,6 +18,9 @@ expose:
     http: "true"
     tlsacme: "false"
     urltemplate: '{{.Service}}-{{.Namespace}}.{{.Domain}}'
+ph-istio:
+  istio:
+    enabled: true
 jenkins:
   Servers:
     Global: {}
