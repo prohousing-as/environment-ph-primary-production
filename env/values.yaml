@@ -26,35 +26,35 @@ ph-auth-service-serverless:
     enabled: true
   istio:
     enabled: true
-    gateway: jx-ph-istio-deployment
+    gateway: jx-ph-istio
     path: /auth
 ph-group-management-service:
   hpa:
     enabled: true
   istio:
     enabled: true
-    gateway: jx-ph-istio-deployment
+    gateway: jx-ph-istio
     path: /grp
 ph-invoice-service:
   hpa:
     enabled: true
   istio:
     enabled: true
-    gateway: jx-ph-istio-deployment
+    gateway: jx-ph-istio
     path: /inv
 ph-payments-service-serverless:
   hpa:
     enabled: true
   istio:
     enabled: true
-    gateway: jx-ph-istio-deployment
+    gateway: jx-ph-istio
     path: /pay
 ph-user-service-serverless:
   hpa:
     enabled: true
   istio:
     enabled: true
-    gateway: jx-ph-istio-deployment
+    gateway: jx-ph-istio
     path: /usr
 jenkins:
   Servers:
