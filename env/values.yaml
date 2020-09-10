@@ -18,9 +18,9 @@ expose:
     http: "true"
     tlsacme: "false"
     urltemplate: '{{.Service}}-{{.Namespace}}.{{.Domain}}'
-ph-istio:
-  istio:
-    enabled: true
+jenkins:
+  Servers:
+    Global: {}
 ph-auth-service-serverless:
   hpa:
     enabled: true
@@ -42,6 +42,9 @@ ph-invoice-service:
     enabled: true
     gateway: jx-ph-istio
     path: /inv
+ph-istio:
+  istio:
+    enabled: true
 ph-payments-service-serverless:
   hpa:
     enabled: true
@@ -56,7 +59,4 @@ ph-user-service-serverless:
     enabled: true
     gateway: jx-ph-istio
     path: /usr
-jenkins:
-  Servers:
-    Global: {}
 prow: {}
