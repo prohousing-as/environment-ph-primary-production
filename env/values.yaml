@@ -52,6 +52,13 @@ ph-payments-service-serverless:
     enabled: true
     gateway: jx-ph-istio
     path: /pay
+ph-member-service:
+  hpa:
+    enabled: true
+  istio:
+    enabled: true
+    gateway: jx-ph-istio
+    path: /usr/v2/members
 ph-user-service-serverless:
   hpa:
     enabled: true
