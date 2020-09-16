@@ -58,7 +58,7 @@ ph-member-service:
   istio:
     enabled: true
     gateway: jx-ph-istio
-    path: /usr/v2/members
+    path: /mem
 ph-user-service-serverless:
   hpa:
     enabled: true
