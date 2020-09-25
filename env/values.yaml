@@ -59,6 +59,13 @@ ph-member-service:
     enabled: true
     gateway: jx-ph-istio
     path: /mem
+ph-supplier-service:
+  hpa:
+    enabled: true
+  istio:
+    enabled: true
+    gateway: jx-ph-istio
+    path: /sup
 ph-user-service-serverless:
   hpa:
     enabled: true
