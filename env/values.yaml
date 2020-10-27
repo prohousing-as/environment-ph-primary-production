@@ -73,4 +73,7 @@ ph-user-service-serverless:
     enabled: true
     gateway: jx-ph-istio
     path: /usr
+ph-m3-service:
+  hpa:
+    enabled: true
 prow: {}
