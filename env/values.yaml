@@ -28,6 +28,7 @@ ph-auth-service-serverless:
     enabled: true
     gateway: jx-ph-istio
     path: /auth
+    host: "api.prohousing.no"
 ph-group-management-service:
   hpa:
     enabled: true
@@ -35,6 +36,7 @@ ph-group-management-service:
     enabled: true
     gateway: jx-ph-istio
     path: /grp
+    host: "api.prohousing.no"
 ph-invoice-service:
   hpa:
     enabled: true
@@ -42,6 +44,7 @@ ph-invoice-service:
     enabled: true
     gateway: jx-ph-istio
     path: /inv
+    host: "api.prohousing.no"
 ph-istio:
   istio:
     enabled: true
@@ -52,6 +55,7 @@ ph-payments-service-serverless:
     enabled: true
     gateway: jx-ph-istio
     path: /pay
+    host: "api.prohousing.no"
 ph-member-service:
   hpa:
     enabled: true
@@ -59,6 +63,7 @@ ph-member-service:
     enabled: true
     gateway: jx-ph-istio
     path: /mem
+    host: "api.prohousing.no"
 ph-supplier-service:
   hpa:
     enabled: true
@@ -66,6 +71,7 @@ ph-supplier-service:
     enabled: true
     gateway: jx-ph-istio
     path: /sup
+    host: "api.prohousing.no"
 ph-user-service-serverless:
   hpa:
     enabled: true
@@ -73,6 +79,7 @@ ph-user-service-serverless:
     enabled: true
     gateway: jx-ph-istio
     path: /usr
+    host: "api.prohousing.no"
 ph-m3-service:
   hpa:
     enabled: true
