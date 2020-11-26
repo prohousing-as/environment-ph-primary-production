@@ -76,4 +76,11 @@ ph-user-service-serverless:
 ph-m3-service:
   hpa:
     enabled: true
+ph-esignature-service:
+  hpa:
+    enabled: true
+  istio:
+    enabled: true
+    gateway: jx-ph-istio
+    path: /esign
 prow: {}
